@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System Reference</title>
+    <style>
+      @font-face {
+        font-family: "Lato";
+        src: url("./assets/fonts/Lato-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Lato";
+        src: url("./assets/fonts/Lato-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Lato";
+        src: url("./assets/fonts/Lato-Italic.ttf") format("truetype");
+        font-weight: 400;
+        font-style: italic;
+      }
+      body {
+        font-family: "Lato", Arial, sans-serif;
+        background: #011936;
+        color: #fef5ef;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Lato", Arial, sans-serif;
+        color: #ffd33d;
+      }
+      .swatch {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      .color-box {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        margin-right: 1rem;
+        border: 2px solid #fff;
+      }
+      .font-sample {
+        margin-bottom: 1rem;
+      }
+      .principle {
+        background: #151312;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        color: #ffd33d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Design System Reference</h1>
+      <div class="principle">
+        <strong>Design Principle:</strong> Keep fonts and colors consistent
+        while building a website or app. This helps maintain a cohesive and
+        professional look throughout the project.
+      </div>
+      <h2>Color Palette</h2>
+      <div class="swatch">
+        <div class="color-box" style="background: #011936"></div>
+        primary_bg <code>#011936</code>
+      </div>
+      <div class="swatch">
+        <div class="color-box" style="background: #ffd33d"></div>
+        buttonColor <code>#ffd33d</code>
+      </div>
+      <div class="swatch">
+        <div class="color-box" style="background: #ab8bff"></div>
+        accent <code>#ab8bff</code>
+      </div>
+      <div class="swatch">
+        <div class="color-box" style="background: #fef5ef"></div>
+        text_light <code>#FEF5EF</code>
+      </div>
+      <div class="swatch">
+        <div class="color-box" style="background: #3f88c5"></div>
+        frame <code>#3F88C5</code>
+      </div>
+      <div class="swatch">
+        <div class="color-box" style="background: #37ff8b"></div>
+        list <code>#37FF8B</code>
+      </div>
+
+      <h2>Font Family: Lato</h2>
+      <div
+        class="font-sample"
+        style="font-family: 'Lato', Arial, sans-serif; font-weight: 400"
+      >
+        Lato Regular: The quick brown fox jumps over the lazy dog.
+      </div>
+      <div
+        class="font-sample"
+        style="font-family: 'Lato', Arial, sans-serif; font-weight: 700"
+      >
+        Lato Bold: The quick brown fox jumps over the lazy dog.
+      </div>
+      <div
+        class="font-sample"
+        style="font-family: 'Lato', Arial, sans-serif; font-style: italic"
+      >
+        Lato Italic: The quick brown fox jumps over the lazy dog.
+      </div>
+
+      <h2>How to Use</h2>
+      <ul>
+        <li>
+          Use the colors above for backgrounds, text, buttons, and accents.
+        </li>
+        <li>Use the Lato font family for all text for consistency.</li>
+        <li>Refer to this page when designing or developing new components.</li>
+      </ul>
+    </div>
+  </body>
+</html>

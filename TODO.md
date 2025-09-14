@@ -1,0 +1,4 @@
+- [ ] Create authentication page
+  - [ ] Find a library or template that provides readymade authentication ui.
+  - [ ]
+- [x] remove headershown that is being displayed on every page.
